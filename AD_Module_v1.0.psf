@@ -3,13 +3,13 @@
   <LastExport>133354537964963666</LastExport>
     <Code><![CDATA[#Static variables
 $ADModule_status = Get-WindowsFeature -Name RSAT-AD-Powershell | select Installed
-$Base = 'ou=mppch.local,dc=opp,dc=local'
-$office = 'ОПП'
-$domaine = 'opp.local'
-$email_domain = 'hyattpetrovskypark-hotel.ru'
-$domain_mark = 'MPPCH'
-$usr_filter = 'samaccountname -like "469*"'
-$ConnUri = 'http://opp-exc.opp.local/PowerShell'
+$Base = 
+$office = 
+$domaine = 
+$email_domain = 
+$domain_mark = 
+$usr_filter = 
+$ConnUri = 
 
 
 #Activate modules
